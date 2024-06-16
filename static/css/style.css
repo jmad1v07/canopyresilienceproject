@@ -1,0 +1,110 @@
+/* Landing image */
+.landing-div {
+    height: calc(100vh - 56px);
+    min-height: calc(100vh - 56px);
+    min-width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(33, 68, 120, 1), rgba(255, 255, 255, 0.05)), url("../img/um-tree-2016-cwss-colours.jpg");
+}
+
+.landing-text{
+    text-align: center;
+    color: white;
+}
+
+.btn-landing{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(33, 68, 120, 1);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(33, 68, 120, 1);
+}
+
+/* Default text colour */
+:root {
+    --bs-body-color: rgba(255, 255, 255, 0.8); 
+    --bs-primary: #ff0066;
+    --bs-link-color: #ff0066;  
+    --bs-link-color-rgb : #ff0066;         /* Default link color */
+    --bs-link-hover-color: #ffd42a; /* Hover color */
+}
+
+/* divider */
+.b-divider {
+    min-height: 3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid rgba(255, 255, 255, 0.8);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(255, 255, 255, 0.8), inset 0 .125em .5em rgba(255, 255, 255, 0.8);
+  }
+
+/* Research row
+.research-row {
+    max-height: 25vh;
+} */
+
+/* Navbar */
+.navbar {
+    background-color: rgba(33, 68, 120, 1);
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Map*/
+.maplibregl-popup {
+    max-width: 400px;
+    font: 20px/30px;
+    color: white;
+}
+
+.maplibregl-popup-content {
+    background-color: rgba(33, 68, 120, 0.75);
+}
+
+/*Make background of tip transparent*/
+.maplibregl-popup-tip {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.map-overlay {
+    position: absolute;
+    width: 200px;
+    top: 87.19;
+    left: 4;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1000;
+  }
+  
+  #colorBar {
+    width: 180px;
+    height: 20px;
+    background: linear-gradient(to right, #de77ae, #fde0ef, #e6f5d0, #b8e186, #4d9221);
+  }
+  
+  #legend {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-top: 10px;
+  }
+  
+  .legendLabel {
+    font-size: 12px;
+  }
+  
+  #mapPoints {
+      height: calc(100vh - 87.19px);
+      z-index: 0;
+  }

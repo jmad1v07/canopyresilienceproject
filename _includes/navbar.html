@@ -1,0 +1,30 @@
+<!-- A horizontal navbar that becomes vertical on small screens -->
+
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{site.baseurl}}/index">
+        <img src="{{site.baseurl}}/static/img/cwss_logo.png" class="header-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="{{site.baseurl}}/#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/news">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/map">Map</a>
+          </li>    
+        </ul>
+        <div class="d-flex">
+          <a href="https://x.com/CWSS_UWA" target="_blank"><i class="fa-brands fa-twitter m-1"></i></a>
+          <a href="" target="https://www.facebook.com/UWACWSS"><i class="fa-brands fa-facebook m-1"></i></a>
+          <a href="https://www.linkedin.com/company/cwssuwa/" target="_blank"><i class="fa-brands fa-linkedin-in m-1"></i></a>
+        </div>
+      </div>
+    </div>
+</nav>
