@@ -5,7 +5,7 @@ title:  "News"
 
 
 <div class="container">
-    <h2>The news reel</h2>
+    <h2>Our news</h2>
     <p>Find all the latest updates and news from the Canopy Resilience Project posted here.</p>
     {% for post in site.posts %}
     <div class="row m-2">
