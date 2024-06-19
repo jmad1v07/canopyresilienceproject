@@ -23,7 +23,7 @@ title: Canopy Resilience Project
 description: >- # this means to ignore newlines until "baseurl:"
   Canopy Resilience Project at the Centre for Water and Spatial Science.
   Monitoring the health of Perth’s tree and enhancing their resilience to drying and warming climates.
-baseurl: "/canopyresilienceproject" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
